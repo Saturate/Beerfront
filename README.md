@@ -1,5 +1,6 @@
-Beerfront
+Beerfront 
 =========
+[![Build Status](https://travis-ci.org/Saturate/Beerfront.svg)](https://travis-ci.org/Saturate/Beerfront)
 
 The Open Source frontend for our new and upcoming app.
 
