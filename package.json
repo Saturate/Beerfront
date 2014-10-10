@@ -1,0 +1,39 @@
+{
+  "name": "Beermeister",
+  "version": "0.0.1",
+  "description": "Frontend for the awesome app for awesome spontanius event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://beermeister.visualstudio.com/DefaultCollection/TeamSmileyFaces/_git/TeamSmileyFaces"
+  },
+  "keywords": [
+    "beer",
+    "event",
+    "app",
+    "emberjs",
+    "allan",
+    "kimmer",
+    "jensen",
+    "api"
+  ],
+  "author": {
+    "name": "Allan Kimmer Jensen",
+    "email": "allankimmerjensen@gmail.com",
+    "url": "http://saturate.dk/"
+  },
+  "contributors": [
+    {
+      "name": "Casper Hjermitslev",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "license": "None",
+  "devDependencies": {
+    "gulp": "^3.8.8"
+  }
+}

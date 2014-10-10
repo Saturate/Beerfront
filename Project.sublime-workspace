@@ -1,0 +1,460 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 774,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 215,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".jshintrc",
+			"settings":
+			{
+				"buffer_size": 351,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/All/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 155,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Source/index.html",
+			"settings":
+			{
+				"buffer_size": 896,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"lint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"javaSct",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"jva",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"power",
+				"Set Syntax: Powershell v2"
+			],
+			[
+				"SCSS",
+				"Set Syntax: SCSS"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/GitHub/TeamSmileyFaces/Frontend"
+	],
+	"file_history":
+	[
+		"/C/GitHub/TeamSmileyFaces/Frontend/.gitignore",
+		"/C/Users/All/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/All/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/GitHub/TeamSmileyFaces/Frontend/README.md",
+		"/C/GitHub/TeamSmileyFaces/Frontend/gulpfile.js",
+		"/C/GitHub/TeamSmileyFaces/Frontend/source/.jshintrc",
+		"/C/Users/All/Downloads/html5-boilerplate-4.3.0/.gitattributes",
+		"/C/Users/All/Downloads/html5-boilerplate-4.3.0/humans.txt",
+		"/C/Users/All/Downloads/html5-boilerplate-4.3.0/crossdomain.xml",
+		"/C/GitHub/TeamSmileyFaces/Frontend/package.json",
+		"/C/Users/All/nick.key",
+		"/C/Users/All/Desktop/IMUS/app/scripts/main.js",
+		"/C/Users/All/Desktop/IMUS/app/index.html",
+		"/C/Users/All/test.txt.gpg",
+		"/C/Users/All/besked-til-nick.txt.asc",
+		"/C/Users/All/test.jpg.asc",
+		"/C/Users/All/Desktop/SteamGifts/bot.js",
+		"/C/Users/All/Desktop/Ja, det er desværre min opfattelse at det er sådan",
+		"/C/Users/All/Desktop/Find My iPhone/allan.js",
+		"/C/Users/All/Desktop/Find My iPhone/node_modules/iphone-finder/lib/iphone-finder.js",
+		"/C/Users/All/Dropbox/Playaroiund/testingallan/example/upload.js",
+		"/C/Users/All/Downloads/web100",
+		"/C/Users/All/Fra gammel computer/BACKUP/chrome-passes.py",
+		"/C/Users/All/Downloads/Exiled Bot Beta v0.22f/Configuration/profile.ini",
+		"/C/Users/All/Dropbox/Playaroiund/testingallan/example/download_test.js",
+		"/C/Users/All/Desktop/Find My iPhone/node_modules/iphone-finder/README.md",
+		"/C/Users/All/Desktop/Find My iPhone/node_modules/iphone-finder/package.json",
+		"/C/Users/All/Desktop/SteamGifts/test.js",
+		"/C/Users/All/test.jpg.gpg",
+		"/C/Users/All/Desktop/IMUS/gulpfile.js",
+		"/C/Users/All/Fra gammel computer/BACKUP/saturate.dk/posts/static-site-generator.md",
+		"/C/Users/All/Downloads/web100.txt",
+		"/C/Users/All/Dropbox/Playaroiund/testingallan/example/test.js",
+		"/C/Users/All/Desktop/Find My iPhone/node_modules/iphone-finder/examples/device-info.js",
+		"/C/Users/All/adam.key",
+		"/C/Users/All/Dropbox/backup/wallet.aes.json",
+		"/C/Users/All/Desktop/IMUS/app/styles/main.scss",
+		"/C/Users/All/test.txt.asc",
+		"/C/Users/All/besked-fra-nick.txt.out",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/All/Dropbox/saturate.dk/web-preview/package.json",
+		"/C/Users/All/Dropbox/saturate.dk/web-preview/app/index.html",
+		"/C/Users/All/Dropbox/dotfiles/win/open-admin-powershell-contextmenu.ps1",
+		"/C/Users/All/Dropbox/dotfiles/win/open-gitshell-contextmenu.ps1",
+		"/C/Testing/gulpfile.js",
+		"/C/Users/All/Dropbox/Imus speak/text",
+		"/C/Users/All/Dropbox/Imus speak/gulp-example.js",
+		"/C/Users/All/Dropbox/Imus speak/grunt-example.js",
+		"/C/GitHub/NC.Frontend.Env/README.md",
+		"/C/Users/All/Dropbox/saturate.dk/web-preview/app/about-me.html",
+		"/C/Users/All/Dropbox/saturate.dk/web-preview/bower.json",
+		"/C/Users/All/Dropbox/saturate.dk/web-preview/app/styles/main.scss",
+		"/C/GitHub/NC.Frontend.Env/tools/package.json",
+		"/C/GitHub/NC.Frontend.Env/NC.Frontend.Env.1.0.2.nuspec",
+		"/C/GitHub/NC.Frontend.Env/tools/node_modules/npm/package.json",
+		"/C/GitHub/NC.Frontend.Env/NC.Frontend.Env.1.0.0.nuspec",
+		"/C/GitHub/NC.Frontend.Env/.gitignore",
+		"/C/GitHub/NC.Frontend.Env/README (2).md",
+		"/C/GitHub/NougatUI/NC.Frontend.Env.1.0.0.nuspec",
+		"/C/GitHub/NougatUI/NougatUI.nuspec",
+		"/C/Testing/package.json",
+		"/C/Users/All/Dropbox/www/3data.php",
+		"/C/Users/All/Dropbox/fake-virus.vb"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$('#header li a')",
+			"World",
+			"description"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								205,
+								205
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14,
+								14
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": ".jshintrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 351,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								178,
+								178
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/All/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Source/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 896,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								583,
+								583
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "Project.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
