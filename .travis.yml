@@ -8,4 +8,4 @@ env:
     - secure: "ScT32DwYekN82oBgtJyKCp2BN50g32gvOtVDneOM+Wb948eaARdyAiibsYDSEtchfwUj/sK8jjQl+JC3xhvjcklY0nMg0QQnm/uMnwgAq/alTncn+wFJ9KJH6AnqHGXQm7ilCAbyXbvrTZKzvhvHWQTnSYV9Nbinwe34BT3Iuuw="
     - secure: "IJIaU/EHey3KzoZefQTPIPHWoKJTA2cLrlGM0q+ANhFuggPEmDkFqwRmOUqF1POqFMpOFxg6XpFzqlwwNqWQaT4MyD1j2u2r1OZl6k2e1zdImc7A5xbVSNuqk/ip6LLgmAGl1BM8iQIW6bx1o1Q5MXeMSpMLUIk1aOpWddGAN54="
 after_success:
-  "curl --ftp-create-dirs -T build/ -u $FTP_USER:$FTP_PASSWORD ftps://waws-prod-am2-003.ftp.azurewebsites.windows.net"
+  "curl --ftp-create-dirs -T build/ -u $FTP_USER:$FTP_PASSWORD ftps://waws-prod-am2-003.ftp.azurewebsites.windows.net/site/wwwroot"
