@@ -9,5 +9,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "ember": "~1.7.0"
+  }
 }
