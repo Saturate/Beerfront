@@ -1,3 +1,6 @@
+# User Settings
+*.sublime-workspace
+
 # Logs
 logs
 *.log
