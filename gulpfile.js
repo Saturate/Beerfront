@@ -10,10 +10,13 @@ gulp.task('jshint', function () {
     .pipe($.jshint.reporter('fail'));
 });
 
+var wiredep = require('wiredep').stream;
+
 gulp.task('default', ['jshint'], function() {
 	console.log('Awesome? Not yet but soon...');
 
 	// Just copy files for now
 	return gulp.src('source/**')
+		.pipe(wiredep())
 		.pipe(gulp.dest('build'));
 });
