@@ -9,17 +9,42 @@
         <title>Codename: BeerMeister</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- build:css styles/vendor.css -->
         <!-- bower:css -->
         <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:css styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <p>Hello world! We will be awesome, soon.</p>
-        
+        <div class="container">
+
+            <form class="form-signin" role="form">
+                <p>AwesomeLogo</p>       
+
+                <h1>Login</h1>
+
+                <button class="btn btn-default">Facebook</button>
+                <button class="btn btn-default">Twitter</button>
+                <button class="btn btn-default">Google</button>
+                <button class="btn btn-default">Microsoft</button>
+
+            </form>
+
+        </div> <!-- /container -->
+     
         <!-- bower:js -->
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <script src="../bower_components/handlebars/handlebars.js"></script>
+        <script src="../bower_components/ember/ember.js"></script>
         <!-- endbower -->
+        <script type="text/javascript" src="/scripts/main.js"></script>
     </body>
 </html>

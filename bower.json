@@ -11,6 +11,7 @@
     "tests"
   ],
   "dependencies": {
-    "ember": "~1.7.0"
+    "ember": "~1.7.0",
+    "bootstrap-sass-official": "~3.2.0+2"
   }
 }
