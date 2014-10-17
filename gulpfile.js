@@ -108,8 +108,8 @@ gulp.task('fonts', function () {
 
 gulp.task('extras', function () {
   return gulp.src([
-    'app/*.*',
-    '!app/*.html'
+    'source/*.*',
+    '!source/*.html'
   ], {
     dot: true
   }).pipe(gulp.dest(buildDir));

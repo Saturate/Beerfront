@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Codename: BeerMeister</title>
+        <title>Codename: BeerMeister • Spontaneous Events!</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
@@ -24,27 +24,61 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+        <p>AwesomeLogo</p> 
+
         <div class="container">
 
+            <a href="#login">Login</a>
+            <a href="#create">Create New</a>
+            <a href="#agree">Agree</a>
+
+        </div> <!-- /container -->
+
+        <script type="text/x-handlebars" data-template-name="login">
+
             <form class="form-signin" role="form">
-                <p>AwesomeLogo</p>       
-
                 <h1>Login</h1>
-
                 <button class="btn btn-default">Facebook</button>
                 <button class="btn btn-default">Twitter</button>
                 <button class="btn btn-default">Google</button>
                 <button class="btn btn-default">Microsoft</button>
+            </form>
+
+        </script>
+
+        <script type="text/x-handlebars" data-template-name="create">
+
+            <form class="form-create" role="form">      
+                <h1>Create Event</h1>
+                <button class="btn btn-default">I got an idea</button>
+                <button class="btn btn-default">I want to go here (place)</button>
+                <button class="btn btn-default">I want to go at (time)</button>
+                <button class="btn btn-default">Iinvitation (time and place)</button>
 
             </form>
 
-        </div> <!-- /container -->
-     
+        </script>
+
+        <script type="text/x-handlebars" data-template-name="agree">
+
+            <form class="form-create" role="form">      
+                <h1>agree</h1>
+            </form>
+
+        </script>
+        
+        <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <script src="../bower_components/jquery/dist/jquery.js"></script>
         <script src="../bower_components/handlebars/handlebars.js"></script>
         <script src="../bower_components/ember/ember.js"></script>
         <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:js scripts/app.js -->
         <script type="text/javascript" src="/scripts/main.js"></script>
+        <script type="text/javascript" src="/scripts/router.js"></script>
+        <!-- endbuild -->
+
     </body>
 </html>
