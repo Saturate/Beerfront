@@ -13,3 +13,11 @@ appControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams',
   function($scope, $routeParams) {
     $scope.phoneId = $routeParams.phoneId;
   }]);
+
+
+
+
+appControllers.controller('EventsList', ['$scope', 'Events', function($scope, Events) {
+  $scope.events = Events.query();
+  console.log($scope.events);
+}]);

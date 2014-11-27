@@ -2,7 +2,8 @@ console.log('No logic yet!');
 
 var app = angular.module('beerApp', [
 	'ngRoute',
-	'appControllers'
+	'appControllers',
+	'appServices'
 	]);
 
 
@@ -21,7 +22,17 @@ app.config(['$routeProvider',
       when('/main', {
         templateUrl: 'templates/main.html'
       }).
+      when('/events', {
+        templateUrl: 'templates/events.html',
+        controller: 'EventsList'
+      }).
       otherwise({
         redirectTo: '/main'
       });
   }]);
+
+
+app.config(['$httpProvider', function($httpProvider) { // coniguring the httpProvider
+    $httpProvider.defaults.headers.common['X-ZUMO-APPLICATION'] = 'WuZzWkRiJBxrryvblJJmrTXorjXrse98'; // add the application key
+    $httpProvider.defaults.headers.common['Content-Type'] = 'Application/json';
+}]);

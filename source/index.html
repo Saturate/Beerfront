@@ -24,29 +24,39 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <p>AwesomeLogo</p> 
+        <header>
+            <p>AwesomeLogo</p> 
 
-        <div class="container">
+            <div class="container">
 
-            <a href="/#/login">Login</a>
-            <a href="/#/create">Create New</a>
-            <a href="/#/agree">Agree</a>
+                <a href="/#/login">Login</a>
+                <a href="/#/create">Create New</a>
+                <a href="/#/agree">Agree</a>
+                <a href="/#/events">Events</a>
 
-        </div> <!-- /container -->
+            </div> <!-- /container -->
+        </header>
 
         <div ng-view></div>
+
+        <footer>
+            footer
+        </footer>
         
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <script src="../bower_components/jquery/dist/jquery.js"></script>
         <script src="../bower_components/angular/angular.js"></script>
         <script src="../bower_components/angular-route/angular-route.js"></script>
+        <script src="../bower_components/angular-resource/angular-resource.js"></script>
+
         <!-- endbower -->
         <!-- endbuild -->
 
         <!-- build:js scripts/app.js -->
         <script type="text/javascript" src="/scripts/main.js"></script>
         <script type="text/javascript" src="/scripts/controllers.js"></script>
+        <script type="text/javascript" src="/scripts/services.js"></script>
         <!-- endbuild -->
 
     </body>
