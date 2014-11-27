@@ -2,8 +2,9 @@ language: node_js
 node_js:
   - 0.10
 before_script:
-  - bower install
   - npm install
+  - npm install -g bower
+  - bower install
 env:
   global:
     - secure: "ScT32DwYekN82oBgtJyKCp2BN50g32gvOtVDneOM+Wb948eaARdyAiibsYDSEtchfwUj/sK8jjQl+JC3xhvjcklY0nMg0QQnm/uMnwgAq/alTncn+wFJ9KJH6AnqHGXQm7ilCAbyXbvrTZKzvhvHWQTnSYV9Nbinwe34BT3Iuuw="
