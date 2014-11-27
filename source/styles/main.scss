@@ -26,3 +26,12 @@ header {
   color: #000;
   padding: 0.2em 0;
 }
+
+.events {
+	list-style: none;
+	li {
+		background: #ccc;
+		padding: 1em;
+		margin-bottom: 1em;
+	}
+}

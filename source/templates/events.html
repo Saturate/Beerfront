@@ -3,10 +3,12 @@
 	<ul class="events">
 		<li ng-repeat="event in events | filter:query">
 			<h3>{{event.idea}}</h3>
-			attendees: {{event.attendees}}<br />
+			attendees:  <span class="glyphicon glyphicon-user" aria-hidden="true"></span>{{event.attendees}}<br />
 			{{event.id}}<br />
 			{{event.location}}<br />
 			{{event.time}}<br />
+
+			Needed people: {{event.neededSigners}}
 		</li>
 	</ul>
 </form>
