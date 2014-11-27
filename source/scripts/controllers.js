@@ -17,7 +17,7 @@ appControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams',
 
 
 
-appControllers.controller('EventsList', ['$scope', 'Events', function($scope, Events) {
+appControllers.controller('Events', ['$scope', 'Events', function($scope, Events) {
   $scope.events = Events.query();
   console.log($scope.events);
 }]);

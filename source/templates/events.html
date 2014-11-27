@@ -1,4 +1,12 @@
- 
-<form class="form-create" role="form">      
-    <h1>Events</h1>
+<form class="form-create" role="form">
+	<h1>Events</h1>
+	<ul class="events">
+		<li ng-repeat="event in events | filter:query">
+			<h3>{{event.idea}}</h3>
+			attendees: {{event.attendees}}<br />
+			{{event.id}}<br />
+			{{event.location}}<br />
+			{{event.time}}<br />
+		</li>
+	</ul>
 </form>

@@ -24,7 +24,7 @@ app.config(['$routeProvider',
       }).
       when('/events', {
         templateUrl: 'templates/events.html',
-        controller: 'EventsList'
+        controller: 'Events'
       }).
       otherwise({
         redirectTo: '/main'
