@@ -6,4 +6,4 @@ before_script:
   - bower install
   - npm install
 after_success:
-  "curl --ftp-create-dirs -T build/ -user $ftpLoginUser:$ftpLoginPass ftp://waws-prod-am2-003.ftp.azurewebsites.windows.net/site/wwwroot/"
+  "curl --ftp-create-dirs -T build/ -u $ftpLoginUser:$ftpLoginPass ftp://waws-prod-am2-003.ftp.azurewebsites.windows.net/site/wwwroot/"
