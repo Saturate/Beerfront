@@ -14,10 +14,16 @@ appControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams',
     $scope.phoneId = $routeParams.phoneId;
   }]);
 
-
-
-
 appControllers.controller('Events', ['$scope', 'Events', function($scope, Events) {
   $scope.events = Events.query();
   console.log($scope.events);
+}]);
+
+appControllers.controller('Login', ['$scope',  function($scope) {
+  $scope.loginProviders = [
+    'facebook',
+    'Google',
+    'Twitter',
+    'Microsoft'
+  ];
 }]);

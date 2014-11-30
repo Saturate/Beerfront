@@ -18,13 +18,15 @@
         <!-- build:css styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
         <!-- endbuild -->
+
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <header>
+        <header id="header">
             <p>AwesomeLogo</p> 
 
             <div class="container">
@@ -37,20 +39,36 @@
             </div> <!-- /container -->
         </header>
 
-        <div ng-view></div>
+        <div id="content" ng-view></div>
 
-        <footer>
+        <footer id="footer">
             footer
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        Messenges
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        Account
+                    </a>
+                </li>
+            </ul>
         </footer>
         
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <script src="../bower_components/jquery/dist/jquery.js"></script>
-        <script src="../bower_components/moment/moment.js"></script>
+        <script src="../bower_components/handlebars/handlebars.js"></script>
+        <script src="../bower_components/ember/ember.js"></script>
         <script src="../bower_components/angular/angular.js"></script>
         <script src="../bower_components/angular-route/angular-route.js"></script>
         <script src="../bower_components/angular-resource/angular-resource.js"></script>
-
+        <script src="../bower_components/angular-mocks/angular-mocks.js"></script>
+        <script src="../bower_components/moment/moment.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 

@@ -11,7 +11,8 @@ app.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/login', {
-        templateUrl: 'templates/test.html'
+        templateUrl: 'templates/login.html',
+        controller: 'Login'
       }).
       when('/create', {
         templateUrl: 'templates/create.html'
