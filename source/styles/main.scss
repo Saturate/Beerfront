@@ -20,7 +20,17 @@ body {
 }
 
 #header {
-	background: #ccc;
+	background: #2F7AED;
+	color: #fff;
+	padding: 0 0 20px;
+	text-align: center;
+	a {
+		color: #fff;
+	}
+}
+
+#logo {
+	font-size: 4em;
 }
 
 .browsehappy {
