@@ -90,6 +90,12 @@ gulp.task('html', ['styles'], function () {
     .pipe(gulp.dest(buildDir));
 });
 
+
+gulp.task('templates', ['styles'], function () {
+  return gulp.src('source/templates/*.html')
+    .pipe(gulp.dest(buildDir + '/templates'));
+});
+
 gulp.task('images', function () {
   return gulp.src('source/images/**/*')
     .pipe($.cache($.imagemin({
@@ -115,7 +121,7 @@ gulp.task('extras', function () {
   }).pipe(gulp.dest(buildDir));
 });
 
-gulp.task('build', ['jshint', 'html', 'images', 'fonts', 'extras'], function () {
+gulp.task('build', ['jshint', 'html', 'images', 'fonts', 'templates', 'extras'], function () {
   return gulp.src(buildDir + '/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 
