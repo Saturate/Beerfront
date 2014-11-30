@@ -7,16 +7,13 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 // bower:sass
 // endbower
 
-// YAY!
-
 body {
   background: #fafafa;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #333;
 }
 
-
-header {
+#header {
 	background: #ccc;
 }
 
@@ -33,5 +30,28 @@ header {
 		background: #ccc;
 		padding: 1em;
 		margin-bottom: 1em;
+	}
+}
+
+#content {
+	padding: 20px;
+}
+
+#footer {
+	overflow: hidden;
+	border-top: 1px solid #DFDFDF;
+	background: #EAEAEA;
+	ul {
+		list-style: none;
+		li {
+			height: 50px;
+			float: left;
+			padding: 0 20px;
+			text-align: center;
+			i {
+				clear: both;
+				display: block;
+			}
+		}
 	}
 }
