@@ -131,3 +131,11 @@ gulp.task('default', ['clean'], function() {
 	console.log('Awesome? Not yet but soon...');
 	gulp.start('build');
 });
+
+gulp.task('deploy', function() {
+  var ghpages = require('gh-pages');
+  var path = require('path');
+ 
+  ghpages.publish(path.join(__dirname, 'build'), function(err) {  });
+});
+
