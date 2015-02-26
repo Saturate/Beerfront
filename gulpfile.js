@@ -136,6 +136,12 @@ gulp.task('deploy', function() {
   var ghpages = require('gh-pages');
   var path = require('path');
  
-  ghpages.publish(path.join(__dirname, 'build'), function(err) {  });
+  ghpages.publish(path.join(__dirname, 'build'), {
+    repo: 'https://' + process.env.GH_TOKEN + '@github.com/Saturate/Beerfront.git',
+    user: {
+      name: 'Travis-CI',
+      email: 'coder@example.com'
+    }
+  });
 });
 

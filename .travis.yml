@@ -6,4 +6,4 @@ before_script:
   - bower install
   - npm install
 after_success:
-  "find build -type f -exec curl -u beerevent\\beerforall:netcompany-123 --ftp-create-dirs -T {} ftp://waws-prod-am2-003.ftp.azurewebsites.windows.net/site/wwwroot/{} \;"
+  "gulp deploy"
