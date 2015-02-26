@@ -142,6 +142,6 @@ gulp.task('deploy', function() {
       name: 'Travis-CI',
       email: 'coder@example.com'
     }
-  });
+  }, function (err) { console.log(err)});
 });
 
